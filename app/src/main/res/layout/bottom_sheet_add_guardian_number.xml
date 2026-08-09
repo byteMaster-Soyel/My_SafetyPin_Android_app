@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<!--    <View-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="5dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@color/black"-->
+<!--        android:layout_marginTop="15dp"/>-->
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/back_btn_account"
+        android:backgroundTint="@color/black"
+        android:layout_margin="14dp"
+        android:id="@+id/add_guardian_to_edit_profile_page_back"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Guardian Mobile Number"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:paddingHorizontal="15dp"
+        android:layout_marginTop="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="phone"
+            android:id="@+id/id_add_guardian_mobile_number_et"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ADD"
+        android:layout_marginTop="7dp"/>
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:id="@id/id_add_guardian_mobile_number_btn"-->
+<!--        android:text="Add"-->
+<!--        android:textSize="16sp"/>-->
+</LinearLayout>

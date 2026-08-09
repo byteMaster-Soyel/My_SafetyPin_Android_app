@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First_Activity.Fragment_emergency_ambulance_booking"
+    android:gravity="center"
+    android:background="#4D60C3">
+
+
+    <ImageButton
+        android:id="@+id/emergency_ambu_booking_btn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ambulance_emergency_booking_btn"/>
+</LinearLayout>

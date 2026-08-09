@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First_Activity.Fragment_profile_account_details"
+    android:background="#5CCBED"
+    android:orientation="vertical"
+    android:layout_gravity="right">
+
+
+
+
+
+          <androidx.appcompat.widget.AppCompatButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="  Edit"
+              android:textSize="14sp"
+              android:textColor="@color/black"
+              android:backgroundTint="#5CCBED"
+              android:paddingEnd="17dp"
+              android:paddingTop="10dp"
+              android:layout_marginRight="2dp"
+              android:layout_gravity="right"
+              android:id="@+id/edit_profile_btn" />
+
+
+
+
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingBottom="65dp">
+
+              <ImageView
+                  android:layout_width="200dp"
+                  android:layout_height="200dp"
+                  android:layout_marginTop="40dp"
+                  android:background="@drawable/woman_profile_icon"
+                  android:padding="10dp">
+
+                  <!--                        android:background="@drawable/profile_bg_drawable"-->
+
+              </ImageView>
+
+              <Button
+                  android:id="@+id/id_change_picture"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:shadowColor="@color/black"
+                  android:text="Change Picture" />
+
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingStart="17dp"
+                  android:paddingBottom="7dp"
+                  android:text="Name :"
+                  android:textColor="@color/black"
+                  android:textSize="20sp"
+                  android:textStyle="bold" />
+
+
+              <TextView
+                  android:id="@+id/profile_name_show"
+                  android:layout_width="match_parent"
+                  android:layout_height="55dp"
+                  android:layout_marginHorizontal="13dp"
+                  android:background="@drawable/profile_details_bg"
+                  android:gravity="center_vertical"
+                  android:paddingStart="17dp"
+                  android:textColor="@color/black"
+                  android:textSize="20sp" />
+
+
+              <!--                <com.google.android.material.textfield.TextInputLayout-->
+              <!--                    android:layout_width="match_parent"-->
+              <!--                    android:layout_height="wrap_content"-->
+              <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+              <!--                    android:paddingHorizontal="15dp">-->
+
+              <!--                    <com.google.android.material.textfield.TextInputEditText-->
+              <!--                        android:layout_width="match_parent"-->
+              <!--                        android:inputType="phone"-->
+              <!--                        android:id="@+id/profile_name_show"-->
+              <!--                        android:layout_height="wrap_content"/>-->
+
+              <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingVertical="7dp"
+                  android:paddingStart="17dp"
+                  android:text="Mobile Number :"
+                  android:textColor="@color/black"
+                  android:textSize="20sp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:id="@+id/profile_phone_number_show"
+                  android:layout_width="match_parent"
+                  android:layout_height="55dp"
+                  android:layout_marginHorizontal="13dp"
+                  android:background="@drawable/profile_details_bg"
+                  android:gravity="center_vertical"
+                  android:paddingStart="17dp"
+                  android:textColor="@color/black"
+                  android:textSize="20sp" />
+
+              <!--                <com.google.android.material.textfield.TextInputLayout-->
+              <!--                    android:layout_width="match_parent"-->
+              <!--                    android:layout_height="wrap_content"-->
+              <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+              <!--                    android:paddingHorizontal="15dp">-->
+
+              <!--                <com.google.android.material.textfield.TextInputEditText-->
+              <!--                    android:layout_width="match_parent"-->
+              <!--                    android:inputType="phone"-->
+              <!--                    android:id="@+id/profile_phone_number_show"-->
+              <!--                    android:layout_height="wrap_content"/>-->
+              <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingVertical="7dp"
+                  android:paddingStart="17dp"
+                  android:text="Email Id :"
+                  android:textColor="@color/black"
+                  android:textSize="20sp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:id="@+id/profile_email_id_show"
+                  android:layout_width="match_parent"
+                  android:layout_height="55dp"
+                  android:layout_marginHorizontal="13dp"
+                  android:background="@drawable/profile_details_bg"
+                  android:gravity="center_vertical"
+                  android:paddingStart="17dp"
+                  android:textColor="@color/black"
+                  android:textSize="20sp" />
+
+              <!--                <com.google.android.material.textfield.TextInputLayout-->
+              <!--                    android:layout_width="match_parent"-->
+              <!--                    android:layout_height="wrap_content"-->
+              <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+              <!--                    android:paddingHorizontal="15dp">-->
+
+              <!--                    <com.google.android.material.textfield.TextInputEditText-->
+              <!--                        android:layout_width="match_parent"-->
+              <!--                        android:inputType="textEmailAddress"-->
+              <!--                        android:id="@+id/profile_email_id_show"-->
+              <!--                        android:layout_height="wrap_content"/>-->
+              <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+
+              <!--                <TextView-->
+              <!--                    android:layout_width="match_parent"-->
+              <!--                    android:layout_height="wrap_content"-->
+              <!--                    android:text="Guardian Mobile Number :"-->
+              <!--                    android:textSize="20sp"-->
+              <!--                    android:paddingStart="17dp"-->
+              <!--                    android:textStyle="bold"-->
+              <!--                    android:textColor="@color/black"-->
+              <!--                    android:paddingVertical="7dp"/>-->
+
+
+              <!--                <TextView-->
+              <!--                    android:id="@+id/profile_guardian_phone_show"-->
+              <!--                    android:layout_width="match_parent"-->
+              <!--                    android:layout_height="55dp"-->
+              <!--                    android:layout_marginHorizontal="13dp"-->
+              <!--                    android:background="@drawable/profile_details_bg"-->
+              <!--                    android:gravity="center_vertical"-->
+              <!--                    android:paddingStart="17dp"-->
+              <!--                    android:textColor="@color/black"-->
+              <!--                    android:textSize="20sp" />-->
+
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:paddingVertical="7dp"
+                      android:paddingStart="17dp"
+                      android:text="Guardian Mobile Number :"
+                      android:textColor="@color/black"
+                      android:textSize="20sp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/profile_guardian_phone_show"
+                      android:layout_width="match_parent"
+                      android:layout_height="55dp"
+                      android:layout_marginHorizontal="14dp"
+                      android:layout_marginTop="40dp"
+                      android:background="@drawable/profile_details_bg"
+                      android:gravity="center_vertical"
+                      android:paddingStart="17dp"
+                      android:textColor="@color/black"
+                      android:textSize="20sp" />
+
+                  <ImageView
+                      android:id="@+id/id_add_guardian_mobile_number"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentEnd="true"
+                      android:layout_centerVertical="true"
+                      android:paddingTop="44dp"
+                      android:paddingEnd="25dp"
+                      android:src="@drawable/add_number_icon" />
+
+              </RelativeLayout>
+
+
+              <!--                <com.google.android.material.textfield.TextInputLayout-->
+              <!--                    android:layout_width="match_parent"-->
+              <!--                    android:layout_height="wrap_content"-->
+              <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+              <!--                    android:paddingStart="15dp"-->
+              <!--                    android:paddingEnd="58dp">-->
+              <!--                    <com.google.android.material.textfield.TextInputEditText-->
+              <!--                        android:layout_width="match_parent"-->
+              <!--                        android:inputType="phone"-->
+              <!--                        android:id="@+id/profile_guardian_phone_show"-->
+              <!--                        android:layout_height="wrap_content"/>-->
+
+              <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingVertical="7dp"
+                  android:paddingStart="17dp"
+                  android:text="Pin Code :"
+                  android:textColor="@color/black"
+                  android:textSize="20sp"
+                  android:textStyle="bold" />
+
+
+              <TextView
+                  android:id="@+id/profile_pin_code_show"
+                  android:layout_width="match_parent"
+                  android:layout_height="55dp"
+                  android:layout_marginHorizontal="13dp"
+                  android:background="@drawable/profile_details_bg"
+                  android:gravity="center_vertical"
+                  android:paddingStart="17dp"
+                  android:textColor="@color/black"
+                  android:textSize="20sp" />
+
+
+              <!--                <com.google.android.material.textfield.TextInputLayout-->
+              <!--                    android:layout_width="match_parent"-->
+              <!--                    android:layout_height="wrap_content"-->
+              <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+              <!--                    android:paddingHorizontal="15dp">-->
+
+              <!--                    <com.google.android.material.textfield.TextInputEditText-->
+              <!--                        android:layout_width="match_parent"-->
+              <!--                        android:inputType="number"-->
+              <!--                        android:id="@+id/profile_pin_code_show"-->
+              <!--                        android:layout_height="wrap_content"/>-->
+              <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+
+              <!--                <EditText-->
+              <!--                    android:layout_width="wrap_content"-->
+              <!--                    android:layout_height="wrap_content"-->
+              <!--                    android:id="@+id/id_et_show_name"-->
+              <!--                    android:hint=""-->
+              <!--                    android:layout_marginTop="10dp"/>-->
+
+              <!--                  <TextView-->
+              <!--                      android:layout_width="match_parent"-->
+              <!--                      android:layout_height="wrap_content"-->
+              <!--                      android:id="@+id/profile_name_show"-->
+              <!--                      android:textSize="25sp"-->
+              <!--                      android:layout_marginStart="10dp"-->
+              <!--                      android:padding="10dp"-->
+              <!--                      android:layout_marginTop="12dp"/>-->
+
+              <!--                  <TextView-->
+              <!--                      android:layout_width="match_parent"-->
+              <!--                      android:layout_height="wrap_content"-->
+              <!--                      android:id="@+id/profile_phone_number_show"-->
+              <!--                      android:textSize="25sp"-->
+              <!--                      android:layout_marginStart="10dp"-->
+              <!--                      android:padding="10dp"-->
+              <!--                      android:layout_marginTop="12dp"/>-->
+
+              <!--                  <TextView-->
+              <!--                      android:layout_width="match_parent"-->
+              <!--                      android:layout_height="wrap_content"-->
+              <!--                      android:id="@+id/profile_email_id_show"-->
+              <!--                      android:layout_marginStart="10dp"-->
+              <!--                      android:layout_marginTop="12dp"-->
+              <!--                      android:padding="10dp"-->
+              <!--                      android:textSize="25sp" />-->
+
+              <!--                  <TextView-->
+              <!--                      android:layout_width="match_parent"-->
+              <!--                      android:layout_height="wrap_content"-->
+              <!--                      android:id="@+id/profile_guardian_phone_show"-->
+              <!--                      android:layout_marginStart="10dp"-->
+              <!--                      android:layout_marginTop="12dp"-->
+              <!--                      android:padding="10dp"-->
+              <!--                      android:textSize="25sp" />-->
+
+              <!--                  <TextView-->
+              <!--                      android:layout_width="match_parent"-->
+              <!--                      android:layout_height="wrap_content"-->
+              <!--                      android:id="@+id/profile_pin_code_show"-->
+              <!--                      android:textSize="25sp"-->
+              <!--                      android:layout_marginStart="10dp"-->
+              <!--                      android:padding="10dp"-->
+              <!--                      android:layout_marginTop="12dp"/>-->
+
+
+          </LinearLayout>
+
+
+      </ScrollView>
+
+</FrameLayout>

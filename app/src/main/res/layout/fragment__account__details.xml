@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".First_Activity.Fragment_Account_Details"
+    android:orientation="vertical"
+    android:background="#5CCBED">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/woman_profile_icon"/>
+<!--                android:src="@drawable/profile_bg_drawable"/>-->
+
+
+
+            <TextView
+                android:id="@+id/account_text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:paddingStart="30dp"-->
+<!--                android:paddingEnd="30dp"-->
+<!--                android:text="Update"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:background="@drawable/update_btn_bg_shape"-->
+<!--                android:layout_gravity="center"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20sp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="15dp"-->
+<!--                android:background="@drawable/layout_all_btn_bg">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="10dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/id_night_mode_icon"-->
+<!--                        android:layout_width="40dp"-->
+<!--                        android:layout_height="40dp"-->
+<!--                        android:layout_alignParentTop="true"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:background="@drawable/night_mode_bg_drawable"-->
+<!--                        android:padding="6dp"-->
+<!--                        android:src="@drawable/darkmode_icon"-->
+<!--                        android:layout_centerVertical="true"/>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="60dp"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="Night Mode"-->
+<!--                        android:textSize="20sp"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textStyle="bold" />-->
+                    <!--                android:layout_toEndOf=""/>-->
+
+<!--                    <androidx.appcompat.widget.SwitchCompat-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        app:switchMinWidth="50dp"-->
+<!--                        android:gravity="center_vertical">-->
+
+<!--                    </androidx.appcompat.widget.SwitchCompat>-->
+
+
+
+<!--                </RelativeLayout>-->
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:background="@drawable/layout_all_btn_bg">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/id_account_details_btn">
+
+                    <ImageView
+                        android:id="@+id/id_account_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/night_mode_bg_drawable"
+                        android:padding="7dp"
+                        android:src="@drawable/profile_icon_acc"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_centerVertical="true"
+                        android:text="Profile details"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <!--                android:layout_toEndOf=""/>-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right_arrow_setting"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/id_support_btn">
+
+                    <ImageView
+                        android:id="@+id/id_support_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/night_mode_bg_drawable"
+                        android:padding="8dp"
+                        android:src="@drawable/support_icon"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="60dp"
+                        android:text="Support"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <!--                android:layout_toEndOf=""/>-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right_arrow_setting"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"/>
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:background="@drawable/layout_all_btn_bg">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/id_about_us_btn">
+
+                    <ImageView
+                        android:id="@+id/id_about_us_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/night_mode_bg_drawable"
+                        android:padding="8dp"
+                        android:src="@drawable/about_icon"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_centerVertical="true"
+                        android:text="About Us"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <!--                android:layout_toEndOf=""/>-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right_arrow_setting"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/id_update_your_app_btn">
+
+                    <ImageView
+                        android:id="@+id/id_software_update_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/night_mode_bg_drawable"
+                        android:padding="10dp"
+                        android:src="@drawable/software_update_icon"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_centerVertical="true"
+                        android:text="Update Your App"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <!--                android:layout_toEndOf=""/>-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right_arrow_setting"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"/>
+
+
+                </RelativeLayout>
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="10dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/id_faqs_icon"-->
+<!--                        android:layout_width="40dp"-->
+<!--                        android:layout_height="40dp"-->
+<!--                        android:layout_alignParentTop="true"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:background="@drawable/night_mode_bg_drawable"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:src="@drawable/share_icon"-->
+<!--                        android:layout_centerVertical="true"/>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="60dp"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="Share To Your Friends"-->
+<!--                        android:textSize="20sp"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textStyle="bold" />-->
+<!--                    &lt;!&ndash;                android:layout_toEndOf=""/>&ndash;&gt;-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:src="@drawable/right_arrow_setting"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:layout_centerVertical="true"/>-->
+
+
+<!--                </RelativeLayout>-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/id_app_version_btn">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/night_mode_bg_drawable"
+                        android:padding="11dp"
+                        android:src="@drawable/app_version"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_centerVertical="true"
+                        android:text="App Version"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <!--                android:layout_toEndOf=""/>-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right_arrow_setting"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"/>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="70dp"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:background="@drawable/layout_all_btn_bg">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/id_logout_btn">
+
+                    <ImageView
+                        android:id="@+id/id_log_out_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/night_mode_bg_drawable"
+                        android:padding="10dp"
+                        android:src="@drawable/logout_icon"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_centerVertical="true"
+                        android:text="Log Out"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <!--                android:layout_toEndOf=""/>-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right_arrow_setting"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginTop="315dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp">-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/id_profile_setting_"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="12dp"/>-->
+<!--&lt;!&ndash;                android:src=""&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background=""&ndash;&gt;-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:text="Night Mode"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textStyle="bold"/>-->
+<!--&lt;!&ndash;                android:layout_toEndOf=""/>&ndash;&gt;-->
+
+
+<!--            <androidx.appcompat.widget.SwitchCompat-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                app:switchMinWidth="50dp">-->
+
+<!--            </androidx.appcompat.widget.SwitchCompat>-->
+
+
+
+
+<!--        </RelativeLayout>-->
+
+<!--    </LinearLayout>-->
+
+
+   </LinearLayout>

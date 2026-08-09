@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My SafetyPin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment_maps">Fragment_Maps_Activity</string>
+    <string name="title_activity_suvajit">suvajit</string>
+    <string name="title_activity_fragment_maps1">Fragment_Maps_Activity1</string>
+    <string name="forgat_password">Forgat password</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="you_have_been_successfully_logout">YOU HAVE BEEN SUCCESSFULLY LOGOUT</string>
+    <string name="welcome_to_my_safetypin_your_trusted_partner_in_safety_and_emergency_response_our_mission_is_to_provide_a_secure_and_responsive_platform_dedicated_to_protecting_lives_and_empowering_communities_whether_you_re_in_danger_need_to_file_a_complaint_or_require_urgent_medical_help_we_re_here_to_support_you_every_step_of_the_way">Welcome to My safetyPin – your trusted partner in safety and emergency response. Our mission is to provide a secure and responsive platform dedicated to protecting lives and empowering communities. Whether you\'re in danger, need to file a complaint, or require urgent medical help, we\'re here to support you—every step of the way.</string>
+
+</resources>
+
+    <!--<string name="app_name">X Sefety</string>-->
