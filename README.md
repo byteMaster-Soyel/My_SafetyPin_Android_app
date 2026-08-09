@@ -1,3 +1,5 @@
+<div align="center">
+  
 # 🛡️ My_SafetyPin
 
 <p align="center">
@@ -17,6 +19,8 @@
 ![Google Maps](https://img.shields.io/badge/API-Google%20Maps-red?style=for-the-badge\&logo=googlemaps\&logoColor=white)
 
 </p>
+
+</div>
 
 ---
 
