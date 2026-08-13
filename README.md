@@ -362,7 +362,6 @@ The application includes the following major screens:
 
 # 📸 Screenshots
 
-> Add your project screenshots inside the `screenshots` folder and update the filenames below if required.
 
 ### 🏠 Home Screen
 
