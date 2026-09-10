@@ -381,7 +381,11 @@ The application includes the following major screens:
 
 ### 🚑 Ambulance Service
 
+<<<<<<< HEAD
 ![Ambulance Service](screenshots/ambulance.png)
+=======
+![Ambulance Service](screenshots/Ambulance.png)
+>>>>>>> 09235e5 (Update screenshots and README)
 
 ### 👤 User Profile
 
