@@ -378,9 +378,6 @@ The application includes the following major screens:
 
 ![SOS Emergency](screenshots/women_safety_sos.png)
 
-### 📍 Location
-
-![Location](screenshots/location.png)
 
 ### 📝 Complaint Form
 
@@ -389,6 +386,10 @@ The application includes the following major screens:
 ### 🚑 Ambulance Service
 
 ![Ambulance Service](screenshots/Ambulance.png)
+
+### 📍 Location
+
+![Location](screenshots/location.png)
 
 ### 👤 User Profile
 
