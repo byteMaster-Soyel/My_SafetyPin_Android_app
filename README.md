@@ -362,11 +362,11 @@ The application includes the following major screens:
 
 # 📸 Screenshots
 
-### 🏠 Opening Page
+### ╰┈➤ Opening Page
 
 ![Open Screen](screenshots/opening.png)
 
-### 🏠 SignIn & SignUp Page
+### ➜🚪 SignIn & SignUp Page
 
 ![SignIn & SignUp Screen](screenshots/signin_signup.png)
 
