@@ -362,6 +362,13 @@ The application includes the following major screens:
 
 # 📸 Screenshots
 
+### 🏠 Opening Page
+
+![Open Screen](screenshots/opening.png)
+
+### 🏠 SignIn & SignUp Page
+
+![SignIn & SignUp Screen](screenshots/signin_signup.png)
 
 ### 🏠 Home Screen
 
@@ -369,7 +376,7 @@ The application includes the following major screens:
 
 ### 🚨 SOS Emergency
 
-![SOS Emergency](screenshots/sos.png)
+![SOS Emergency](screenshots/women_safety_sos.png)
 
 ### 📍 Location
 
@@ -381,11 +388,7 @@ The application includes the following major screens:
 
 ### 🚑 Ambulance Service
 
-<<<<<<< HEAD
-![Ambulance Service](screenshots/ambulance.png)
-=======
 ![Ambulance Service](screenshots/Ambulance.png)
->>>>>>> 09235e5 (Update screenshots and README)
 
 ### 👤 User Profile
 
