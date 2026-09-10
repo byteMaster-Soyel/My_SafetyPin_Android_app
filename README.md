@@ -389,7 +389,7 @@ The application includes the following major screens:
 
 ### 📍 Location
 
-![Location](screenshots/Location.png)
+![Location](screenshots/location.png)
 
 ### 👤 User Profile
 
